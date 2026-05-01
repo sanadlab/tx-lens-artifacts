@@ -1,0 +1,158 @@
+{
+    "hash": "0x13aba80ce0a19b0b8bc9072291d9987eb29eedc7a7c72b67e6b62d1a02c8b9d0",
+    "nonce": "377792",
+    "transaction_index": "28",
+    "from_address_entity": null,
+    "from_address_entity_logo": null,
+    "from_address": "0xde2faca4bbc0aca08ff04d387c39b6f6325bf82a",
+    "to_address_entity": null,
+    "to_address_entity_logo": null,
+    "to_address": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "value": "0.0",
+    "gas": "100000",
+    "gas_price": "10661005804",
+    "input": "0xa9059cbb000000000000000000000000a041feb3a8297c5689fee180083164a061a17fd600000000000000000000000000000000000000000002558390f01fdec0000000",
+    "receipt_cumulative_gas_used": "9779661",
+    "receipt_gas_used": "58891",
+    "receipt_contract_address": "",
+    "receipt_root": "None",
+    "receipt_status": "1",
+    "receipt_effective_gas_price": "10661005804",
+    "transaction_type": "0",
+    "max_fee_per_gas": "0",
+    "max_priority_fee_per_gas": "0",
+    "block_timestamp": "2025-08-14T11:17:35Z",
+    "block_number": "23138936",
+    "block_hash": "0xaab0501af54de0f8f3ebc3c94cd4991f977d98b99a58e0eb6cf1d5620c93ae19",
+    "is_contract_creation": false,
+    "block_details": {
+        "miner": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "difficulty": "0.0",
+        "total_difficulty": "",
+        "size": "105152",
+        "gas_limit": "44999957",
+        "gas_used": "30108230",
+        "base_fee_per_gas": "1066643118",
+        "extra_data": "0x546974616e2028746974616e6275696c6465722e78797a29",
+        "logs_bloom": "0x2bed1de75fd998f67cde5452a5ea79f7135bc773fc07edb91dd790dcdd31f7f5dcbbfb7ff909242f3b52df73f9b6dd7f37f3ccf88e976957b493c7ea77aff1f3fdb233f85e1dcceeef7f73ba9f56f8fcf023348bb3efcd6e3863cffcccd2ff575e53779d7ae2def2e4feda5a39357f8dbf7d2fb89cdf96f397cb6fd6bd6a3a7fca6d2fd83b7c2f79a4fbb7e9df7f5c6f759a9ed3f5dd3bbbe9ff7eeee5f066ea3f4f1fe287fb7b7b4b7a37e31e7a7563afcf5ef5f5ff659f3d77ff7a4fbbe0f4f93a2d6ff38baf904abdffd7a27b32b7f8ffef77e73e60fcef87ed475cb96e783b7fefef5bc2c51ff4e43ba8a467cb63afbb64f9e7fbadf4f2999615e9c75ed7",
+        "parent_hash": "0xfe53a95f8d08949d1d66840bd8d94701a98510a082728127aabd664eff714c2c",
+        "state_root": "0xc48aea92ed7fd4005d2fe461b9ec000ed388287b9136a704083128b8b2531f0d",
+        "receipts_root": "0x3cbd6e44f0f64c2504dd06bdf87066f5c6715365ae1634dbc1346103f1cb4882",
+        "transactions_root": "0xe83fb0f5ec3dad2bd2aa06f23a49de33fde177236edd51928eb4b831f498aeef",
+        "sha3_uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "transaction_count": "238"
+    },
+    "logs": [
+        {
+            "address": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+            "block_number": "23138936",
+            "block_hash": "0xaab0501af54de0f8f3ebc3c94cd4991f977d98b99a58e0eb6cf1d5620c93ae19",
+            "block_timestamp": "2025-08-14T11:17:35Z",
+            "data": "0x00000000000000000000000000000000000000000002558390f01fdec0000000",
+            "log_index": "190",
+            "transaction_hash": "0x13aba80ce0a19b0b8bc9072291d9987eb29eedc7a7c72b67e6b62d1a02c8b9d0",
+            "transaction_index": "28",
+            "transaction_value": "0.0",
+            "topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "topic1": "0x000000000000000000000000de2faca4bbc0aca08ff04d387c39b6f6325bf82a",
+            "topic2": "0x000000000000000000000000a041feb3a8297c5689fee180083164a061a17fd6",
+            "topic3": null,
+            "decoded_event": {
+                "label": "Transfer",
+                "signature": "Transfer(address,address,uint256)",
+                "type": "event",
+                "params": [
+                    {
+                        "type": "address",
+                        "value": "0xdE2fACa4BBC0aca08fF04D387c39B6f6325bf82A"
+                    },
+                    {
+                        "type": "address",
+                        "value": "0xA041FeB3a8297c5689FEE180083164A061a17fD6"
+                    },
+                    {
+                        "type": "uint256",
+                        "value": 2821679757629411580444672
+                    }
+                ]
+            }
+        }
+    ],
+    "decoded_call": {
+        "type": "function",
+        "label": "transfer",
+        "signature": "transfer(address,uint256)",
+        "params": [
+            {
+                "name": "",
+                "type": "address",
+                "value": "0xA041FeB3a8297c5689FEE180083164A061a17fD6",
+                "params": []
+            },
+            {
+                "name": "",
+                "type": "uint256",
+                "value": "2821679757629411580444672",
+                "params": []
+            }
+        ]
+    },
+    "transaction_fee_eth": "0.000627837292803364",
+    "transaction_fee_wei": "627837292803364",
+    "internal_transactions": [
+        {
+            "transaction_hash": "0x13aba80ce0a19b0b8bc9072291d9987eb29eedc7a7c72b67e6b62d1a02c8b9d0",
+            "block_number": "23138936",
+            "block_hash": "0xaab0501af54de0f8f3ebc3c94cd4991f977d98b99a58e0eb6cf1d5620c93ae19",
+            "type": "CALL",
+            "from": "0xde2faca4bbc0aca08ff04d387c39b6f6325bf82a",
+            "to": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+            "value": "0.0",
+            "gas": "78344.0",
+            "gas_used": "37235.0",
+            "input": "0xa9059cbb000000000000000000000000a041feb3a8297c5689fee180083164a061a17fd600000000000000000000000000000000000000000002558390f01fdec0000000",
+            "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "error": "None",
+            "trace_address": "None",
+            "subtraces": 1,
+            "trace_id": "call_0x13aba80ce0a19b0b8bc9072291d9987eb29eedc7a7c72b67e6b62d1a02c8b9d0",
+            "status": 1
+        },
+        {
+            "transaction_hash": "0x13aba80ce0a19b0b8bc9072291d9987eb29eedc7a7c72b67e6b62d1a02c8b9d0",
+            "block_number": "23138936",
+            "block_hash": "0xaab0501af54de0f8f3ebc3c94cd4991f977d98b99a58e0eb6cf1d5620c93ae19",
+            "type": "CALL",
+            "from": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+            "to": "0x930c746a6e92ca8122682df48cd5020bc1771b32",
+            "value": "0.0",
+            "gas": "72238.0",
+            "gas_used": "32234.0",
+            "input": "0xa9059cbb000000000000000000000000a041feb3a8297c5689fee180083164a061a17fd600000000000000000000000000000000000000000002558390f01fdec0000000",
+            "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "error": "None",
+            "trace_address": "0",
+            "subtraces": 0,
+            "trace_id": "call_0x13aba80ce0a19b0b8bc9072291d9987eb29eedc7a7c72b67e6b62d1a02c8b9d0_0",
+            "status": 1
+        }
+    ],
+    "balance_changes_sender": {
+        "ether_wei": "-627837292803364.0"
+    },
+    "related_contracts": [
+        "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+        "0xde2faca4bbc0aca08ff04d387c39b6f6325bf82a",
+        "0x930c746a6e92ca8122682df48cd5020bc1771b32"
+    ],
+    "transfers": [
+        {
+            "type": "token",
+            "token_address": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+            "from": "0x000000000000000000000000de2faca4bbc0aca08ff04d387c39b6f6325bf82a",
+            "to": "0x000000000000000000000000a041feb3a8297c5689fee180083164a061a17fd6",
+            "value": "2.8216797576294116e+24"
+        }
+    ],
+    "created_contract": null
+}

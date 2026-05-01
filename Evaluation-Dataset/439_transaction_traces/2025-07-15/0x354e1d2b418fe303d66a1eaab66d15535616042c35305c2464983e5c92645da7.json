@@ -1,0 +1,91 @@
+{
+    "hash": "0x354e1d2b418fe303d66a1eaab66d15535616042c35305c2464983e5c92645da7",
+    "nonce": "20",
+    "transaction_index": "73",
+    "from_address_entity": null,
+    "from_address_entity_logo": null,
+    "from_address": "0x9bf7a4ddca405929dba1fbb136f764f5892a8a7a",
+    "to_address_entity": null,
+    "to_address_entity_logo": null,
+    "to_address": "0x0a360bd648eb86613961a2aa41dc1610c5305f4f",
+    "value": "1.2715e+21",
+    "gas": "21000",
+    "gas_price": "9672890301",
+    "input": "0x",
+    "receipt_cumulative_gas_used": "12916338",
+    "receipt_gas_used": "21000",
+    "receipt_contract_address": "",
+    "receipt_root": "None",
+    "receipt_status": "1",
+    "receipt_effective_gas_price": "9672890301",
+    "transaction_type": "2",
+    "max_fee_per_gas": "13331712212",
+    "max_priority_fee_per_gas": "2000000000",
+    "block_timestamp": "2025-07-15T19:11:35Z",
+    "block_number": "22926589",
+    "block_hash": "0xb0d1cff145ea553f0965b5e75f822ca4ced38058db7fec410c4b05284bf0f2a0",
+    "is_contract_creation": false,
+    "block_details": {
+        "miner": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "difficulty": "0.0",
+        "total_difficulty": "",
+        "size": "66516",
+        "gas_limit": "36035155",
+        "gas_used": "19834592",
+        "base_fee_per_gas": "7672890301",
+        "extra_data": "0x546974616e2028746974616e6275696c6465722e78797a29",
+        "logs_bloom": "0x17f96b7cebd50ed5a0ff6de089b3f33e1d0a8a0bb43ea1f65f81eb5fedf81093b11d9b3bf39880de56d14f7ea4bfc72fbeeda3f9ce40e816eaf7c5ee512eabc5869334947366f9ffb900c62ed2ccaef830265ab509740c7e0b9838fe91e1f6d5ff743bbffee6e2e12debdbb089a4ec196fb29c409ce4e71e954b3cb4f01fd71fda29b34973a3c131e1f2946d11e64a5794ef1e21d5221dcb2eae8954ccf5f4ba8f163b6666d6bcd6b10d8df3fbf7cd948cf657ec55a7ef7ca6fffffa6a0fe171d75eb85f365c191b4da5fb710c7bfbaa477d67465f2a9e9a6b37381fcd7966ff375e74288e726af4be4edc1691d911e3e5658dc2c1cc66c4d12843b6e1fd4ff7",
+        "parent_hash": "0x9bfee2026de9cd757600e231d7bd8945158de8ca91b70a39298893781924c856",
+        "state_root": "0x25617403ddf1ce8414f3df9233f7d51319a259a3d168835f7b185c76c293d356",
+        "receipts_root": "0x07fe4825234e5858c7e4d419b11c023d6fc41bfebc0abe121aba57cee631a24a",
+        "transactions_root": "0xa85fa0a17ad2936de66e88111bfb95ed6762748992cb187dc40b591acc1273c0",
+        "sha3_uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "transaction_count": "175"
+    },
+    "logs": [],
+    "decoded_call": null,
+    "transaction_fee_eth": "0.000203130696321000",
+    "transaction_fee_wei": "203130696321000",
+    "internal_transactions": [
+        {
+            "transaction_hash": "0x354e1d2b418fe303d66a1eaab66d15535616042c35305c2464983e5c92645da7",
+            "block_number": "22926589",
+            "block_hash": "0xb0d1cff145ea553f0965b5e75f822ca4ced38058db7fec410c4b05284bf0f2a0",
+            "type": "CALL",
+            "from": "0x9bf7a4ddca405929dba1fbb136f764f5892a8a7a",
+            "to": "0x0a360bd648eb86613961a2aa41dc1610c5305f4f",
+            "value": "1.2715e+21",
+            "gas": "0.0",
+            "gas_used": "0.0",
+            "input": "0x",
+            "output": "0x",
+            "error": "None",
+            "trace_address": "None",
+            "subtraces": 0,
+            "trace_id": "call_0x354e1d2b418fe303d66a1eaab66d15535616042c35305c2464983e5c92645da7",
+            "status": 1
+        }
+    ],
+    "balance_changes_sender": {
+        "ether_wei": "-1271500203130696321000"
+    },
+    "related_contracts": [
+        "0x9bf7a4ddca405929dba1fbb136f764f5892a8a7a",
+        "0x0a360bd648eb86613961a2aa41dc1610c5305f4f"
+    ],
+    "transfers": [
+        {
+            "type": "ether",
+            "from": "0x9bf7a4ddca405929dba1fbb136f764f5892a8a7a",
+            "to": "0x0a360bd648eb86613961a2aa41dc1610c5305f4f",
+            "value": "1.2715e+21"
+        },
+        {
+            "type": "ether",
+            "from": "0x9bf7a4ddca405929dba1fbb136f764f5892a8a7a",
+            "to": "0x0a360bd648eb86613961a2aa41dc1610c5305f4f",
+            "value": "1.2715e+21"
+        }
+    ],
+    "created_contract": null
+}

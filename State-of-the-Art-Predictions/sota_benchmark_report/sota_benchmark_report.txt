@@ -1,0 +1,80 @@
+SOTA Binary Predictions Benchmark Report
+========================================
+
+Labels file: Manual_Label_Eth_Txs.csv
+Results file: sota_labeled_output.csv
+Merged rows: 439
+Prediction columns evaluated: ['etherscan_label', 'blocksec_label', 'webacy_label', 'certik_label']
+
+--- Column: etherscan_label ---
+n_examples: 439
+Support pos: 159, Support neg: 280
+Accuracy: 0.432802
+Precision: 0.357595
+Recall: 0.710692
+Sensitivity: 0.710692
+Specificity (TNR): 0.275000
+Balanced Accuracy: 0.492846
+PR-AUC: 0.358923
+F1: 0.475789
+Confusion (tn, fp, fn, tp): 77, 203, 46, 113
+NPV: 0.626016
+FPR: 0.725000
+FNR: 0.289308
+FDR: 0.642405
+FOR: 0.373984
+
+--- Column: blocksec_label ---
+n_examples: 439
+Support pos: 159, Support neg: 280
+Accuracy: 0.359909
+Precision: 0.360731
+Recall: 0.993711
+Sensitivity: 0.993711
+Specificity (TNR): 0.000000
+Balanced Accuracy: 0.496855
+PR-AUC: 0.360740
+F1: 0.529313
+Confusion (tn, fp, fn, tp): 0, 280, 1, 158
+NPV: 0.000000
+FPR: 1.000000
+FNR: 0.006289
+FDR: 0.639269
+FOR: 1.000000
+
+--- Column: webacy_label ---
+n_examples: 439
+Support pos: 159, Support neg: 280
+Accuracy: 0.492027
+Precision: 0.237705
+Recall: 0.182390
+Sensitivity: 0.182390
+Specificity (TNR): 0.667857
+Balanced Accuracy: 0.425124
+PR-AUC: 0.339483
+F1: 0.206406
+Confusion (tn, fp, fn, tp): 187, 93, 130, 29
+NPV: 0.589905
+FPR: 0.332143
+FNR: 0.817610
+FDR: 0.762295
+FOR: 0.410095
+
+--- Column: certik_label ---
+n_examples: 439
+Support pos: 159, Support neg: 280
+Accuracy: 0.822323
+Precision: 0.688372
+Recall: 0.930818
+Sensitivity: 0.930818
+Specificity (TNR): 0.760714
+Balanced Accuracy: 0.845766
+PR-AUC: 0.665806
+F1: 0.791444
+Confusion (tn, fp, fn, tp): 213, 67, 11, 148
+NPV: 0.950893
+FPR: 0.239286
+FNR: 0.069182
+FDR: 0.311628
+FOR: 0.049107
+

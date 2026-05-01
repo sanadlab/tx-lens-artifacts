@@ -1,0 +1,91 @@
+{
+    "hash": "0x3b7115ec64ff17781478c36ac5972331367f43aee1678dc20e4afe8608a813f6",
+    "nonce": "57873",
+    "transaction_index": "338",
+    "from_address_entity": null,
+    "from_address_entity_logo": null,
+    "from_address": "0x63dfe4e34a3bfc00eb0220786238a7c6cef8ffc4",
+    "to_address_entity": null,
+    "to_address_entity_logo": null,
+    "to_address": "0x87aab7bac1308faf2a0d59da26b8379e18b26355",
+    "value": "5.5e+20",
+    "gas": "21000",
+    "gas_price": "804479473",
+    "input": "0x",
+    "receipt_cumulative_gas_used": "32516966",
+    "receipt_gas_used": "21000",
+    "receipt_contract_address": "",
+    "receipt_root": "None",
+    "receipt_status": "1",
+    "receipt_effective_gas_price": "804479473",
+    "transaction_type": "2",
+    "max_fee_per_gas": "1030441665",
+    "max_priority_fee_per_gas": "33346510",
+    "block_timestamp": "2025-07-24T12:48:11Z",
+    "block_number": "22989111",
+    "block_hash": "0x00158d2e862ca131a8119a1dd2a7e2e7ae62a9d48433679c6fa69237566c102b",
+    "is_contract_creation": false,
+    "block_details": {
+        "miner": "0x95222290dd7278aa3ddd389cc1e1d165cc4bafe5",
+        "difficulty": "0.0",
+        "total_difficulty": "",
+        "size": "176393",
+        "gas_limit": "44824181",
+        "gas_used": "34307043",
+        "base_fee_per_gas": "771132963",
+        "extra_data": "0x6265617665726275696c642e6f7267",
+        "logs_bloom": "0xf77ff737ebfb5fffbefb6ffbffc7dee7df6f1ffffffffb7753fb9d7ff6b7efe8efd7d7ffb3ff35df7ffbffdadfdfebdfff6fdafefebfff1fffb3ffdf7ffffbaffdd7bfecfdffdefbff537bfbeffd7ffaef5ffabfffffef3ffefefebfdfffffb256fdfbeffbee6ffbb3cffbf1fe8f2fffbb1baefedfdcfefdd8befff6bd7fbeff5ffffbdfdefbf7bcedfdfff9dd7f6feeb7fdafadfff3b7befdbf96f4d7fdfdfb3fe79deadffffd9aefff7bf5dfe7ddf77fe5fffe66d774dff7dfcffcfda71bf7e7df5f4f747efbfeffdf73ffdffbfdcfdffff657d77daff7feffbfeffbf1ffcffbffeffb77bf7ab6f7ecbfbeffe4ad6ff7f7ffeffffb2ff7bddff7ffdffd5dfc",
+        "parent_hash": "0x1de8f88dd9273f1435a82533ada977d8569984f664bfb4afb9cbd8b60a0e57d7",
+        "state_root": "0x2b319dacae986e1f3bed2b021229eb07b182fa21616a9a248d64faa49797ba0f",
+        "receipts_root": "0xd59ee63914c08cbf9adcc708890bad3d635bc8d1e42a380dc1fa2820349c24a9",
+        "transactions_root": "0x88ac3d596037dfd4568f10e6832efed0f4e5eb6e92aa760308e4b49042a7886e",
+        "sha3_uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "transaction_count": "366"
+    },
+    "logs": [],
+    "decoded_call": null,
+    "transaction_fee_eth": "0.000016894068933000",
+    "transaction_fee_wei": "16894068933000",
+    "internal_transactions": [
+        {
+            "transaction_hash": "0x3b7115ec64ff17781478c36ac5972331367f43aee1678dc20e4afe8608a813f6",
+            "block_number": "22989111",
+            "block_hash": "0x00158d2e862ca131a8119a1dd2a7e2e7ae62a9d48433679c6fa69237566c102b",
+            "type": "CALL",
+            "from": "0x63dfe4e34a3bfc00eb0220786238a7c6cef8ffc4",
+            "to": "0x87aab7bac1308faf2a0d59da26b8379e18b26355",
+            "value": "5.5e+20",
+            "gas": "0.0",
+            "gas_used": "0.0",
+            "input": "0x",
+            "output": "0x",
+            "error": "None",
+            "trace_address": "None",
+            "subtraces": 0,
+            "trace_id": "call_0x3b7115ec64ff17781478c36ac5972331367f43aee1678dc20e4afe8608a813f6",
+            "status": 1
+        }
+    ],
+    "balance_changes_sender": {
+        "ether_wei": "-550000016894068933000"
+    },
+    "related_contracts": [
+        "0x63dfe4e34a3bfc00eb0220786238a7c6cef8ffc4",
+        "0x87aab7bac1308faf2a0d59da26b8379e18b26355"
+    ],
+    "transfers": [
+        {
+            "type": "ether",
+            "from": "0x63dfe4e34a3bfc00eb0220786238a7c6cef8ffc4",
+            "to": "0x87aab7bac1308faf2a0d59da26b8379e18b26355",
+            "value": "5.5e+20"
+        },
+        {
+            "type": "ether",
+            "from": "0x63dfe4e34a3bfc00eb0220786238a7c6cef8ffc4",
+            "to": "0x87aab7bac1308faf2a0d59da26b8379e18b26355",
+            "value": "5.5e+20"
+        }
+    ],
+    "created_contract": null
+}
