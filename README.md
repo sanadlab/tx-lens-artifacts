@@ -20,78 +20,110 @@ We provide a curated benchmark dataset comprising **439 Ethereum transaction tra
 * Researchers can reconstruct execution traces using any standard Ethereum archive node.
 * The dataset is publicly available via Zenodo for long-term access and reproducibility.
 
+---
 
 ### 2. Table-1: TxSentinel Predictions
 
-This repository provides **precomputed model predictions and evaluation metrics** for the benchmark dataset to support artifact evaluation and reproducibility.
+This component reproduces the results of TxSentinel across three experimental settings using precomputed model predictions.
 
-#### Contents
+**Contents**
 
-* **Prediction Files**
-  For each experimental setting, we provide model outputs in:
+The evaluation uses the following fixed files:
 
-  * `P1-prediction_results.csv`
-  * `P2-prediction_results.csv`
-  * `P3-prediction_results.csv`
+* `ground-truth-labels.csv` — manually curated labels
+* `P1-prediction_results.csv` — frozen embeddings
+* `P2-prediction_results.csv` — fine-tuned embeddings
+* `P3-prediction_results.csv` — expert features
 
-  Each file contains:
+Each file contains prediction scores for the following models:
 
-  * Transaction identifiers (`hash`)
-  * Model scores for the following methods:
+* AAE, RF, ET, XGB, PU
 
-    * AAE, RF, ET, XGB, PU
+**Execution**
 
-* **Summary Metrics**
-  The file:
-
-  * `Table-1-TxSentinel-Predictions.csv`
-
-  reports aggregated evaluation results for all `(Experiment, Model)` pairs.
-
-#### Metrics
-
-All metrics are reported as **percentages (0–100 scale)**:
-
-* **Accuracy**
-* **Specificity**
-* **Sensitivity (Recall)**
-* **PR-AUC (Average Precision)**
-
-#### Experimental Settings
-
-The results are organized across three experimental configurations:
-
-* **P1: Frozen embeddings**
-* **P2: Fine-tuned embeddings**
-* **P3: Expert features**
-
-#### Reproducibility
-
-The summary file (`Table-1-TxSentinel-Predictions.csv`) can be regenerated using the provided script:
+To reproduce Table 1:
 
 ```bash
 python run.py
 ```
 
-This script:
+**Output**
 
-1. Loads ground-truth labels from `ground-truth-labels.csv`
-2. Merges them with prediction files
-3. Applies fixed thresholds (as specified in the paper)
-4. Computes all reported metrics
-5. Outputs the final CSV file
+The script generates:
 
-No additional training or external dependencies are required beyond standard Python libraries.
+* `Table-1-TxSentinel-Predictions.csv`
 
+**Reported Metrics**
 
+For each `(Experiment, Model)` pair, the following metrics are computed:
 
-### 3. State-of-the-Art Predictions
+* Accuracy
+* Specificity
+* Sensitivity
+* PR-AUC
 
-To enable fair comparison, we include benchmarking results from three prominent academic systems:
+All metrics are reported as percentages with one decimal place.
 
-* *BlockGPT*
-* *BlockLens*
-* *BlockScan*
+**Reproducibility Notes**
+
+* Fixed decision thresholds are used for each model and experiment.
+* Metrics are computed deterministically from the provided predictions.
+* No training or randomness is involved.
+* The output CSV matches the results reported in the paper.
+
+---
+
+### 3. Table-3: State-of-the-Art Predictions
+
+This component evaluates external state-of-the-art tools on the same benchmark dataset using their binary predictions.
+
+**Contents**
+
+The evaluation uses the following fixed files:
+
+* `ground-truth-labels.csv` — manually curated labels
+* `sota_labeled_output.csv` — tool predictions
+
+The following prediction columns are evaluated:
+
+* `etherscan_label` → Etherscan
+* `blocksec_label` → BlockSec
+* `certik_label` → CertiK
+
+**Execution**
+
+To reproduce Table 3:
+
+```bash
+python run.py
+```
+
+**Output**
+
+The script generates:
+
+* `Table-3-State-of-the-Art-Predictions.csv`
+
+**Reported Metrics**
+
+For each tool, the following metrics are computed:
+
+* Balanced-Accuracy
+* Specificity
+* Sensitivity
+* PR-AUC
+
+All metrics are reported as percentages with one decimal place.
+
+**Reproducibility Notes**
+
+* Predictions are treated as hard binary labels (0/1).
+* Balanced Accuracy is computed as the average of specificity and sensitivity.
+* PR-AUC is computed directly from the binary outputs, consistent with the original script.
+* No parameter tuning or thresholding is applied.
+* Results are fully deterministic and reproducible with a single command.
+
+---
 
 ### 4. Reproducibility Scripts
 

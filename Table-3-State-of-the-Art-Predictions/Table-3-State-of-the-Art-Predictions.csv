@@ -1,0 +1,4 @@
+Tool,Balanced-Accuracy,Specificity,Sensitivity,PR-AUC
+Etherscan,49.3,27.5,71.1,35.9
+BlockSec,49.7,0.0,99.4,36.1
+CertiK,84.6,76.1,93.1,66.6

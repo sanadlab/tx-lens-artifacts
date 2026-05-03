@@ -1,5 +1,0 @@
-Ranking of prediction columns by F1 (desc):
-certik_label: F1=0.791444, Acc=0.822323, Precision=0.688372, Recall=0.930818, BalAcc=0.845766, PR-AUC=0.665806
-blocksec_label: F1=0.529313, Acc=0.359909, Precision=0.360731, Recall=0.993711, BalAcc=0.496855, PR-AUC=0.360740
-etherscan_label: F1=0.475789, Acc=0.432802, Precision=0.357595, Recall=0.710692, BalAcc=0.492846, PR-AUC=0.358923
-webacy_label: F1=0.206406, Acc=0.492027, Precision=0.237705, Recall=0.182390, BalAcc=0.425124, PR-AUC=0.339483
