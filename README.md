@@ -1,7 +1,3 @@
-Here is a polished, professional `README.md` version of your content:
-
----
-
 # TxSentinel-artifacts
 
 Artifacts for our CCS paper on Ethereum transaction anomaly detection and benchmarking.
