@@ -1,0 +1,16 @@
+Experiment,Model,Accuracy,Specificity,Sensitivity,PR-AUC
+P1: frozen embeddings,AAE,86.5,89.3,83.6,78.7
+P1: frozen embeddings,RF,83.0,97.5,68.6,77.1
+P1: frozen embeddings,ET,90.3,95.7,84.9,87.4
+P1: frozen embeddings,XGB,86.6,97.1,76.1,88.6
+P1: frozen embeddings,PU,89.0,90.0,88.1,86.2
+P2: fine-tuned embeddings,AAE,92.3,84.6,100.0,78.7
+P2: fine-tuned embeddings,RF,94.5,97.1,91.8,95.1
+P2: fine-tuned embeddings,ET,92.6,97.9,87.4,91.1
+P2: fine-tuned embeddings,XGB,94.9,96.1,93.7,96.5
+P2: fine-tuned embeddings,PU,95.1,97.1,93.1,98.5
+P3: expert features,AAE,79.9,89.3,70.4,67.9
+P3: expert features,RF,97.8,97.5,98.1,98.7
+P3: expert features,ET,98.0,98.6,97.5,98.8
+P3: expert features,XGB,97.6,97.1,98.1,98.4
+P3: expert features,PU,97.9,96.4,99.4,98.6

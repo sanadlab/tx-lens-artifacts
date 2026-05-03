@@ -20,12 +20,70 @@ We provide a curated benchmark dataset comprising **439 Ethereum transaction tra
 * Researchers can reconstruct execution traces using any standard Ethereum archive node.
 * The dataset is publicly available via Zenodo for long-term access and reproducibility.
 
-### 2. TxSentinel Predictions
 
-We release **pointwise maliciousness scores** for each transaction in the evaluation dataset:
+### 2. Table-1: TxSentinel Predictions
 
-* Predictions are provided across **five models**.
-* Includes results for **three representation paradigms**.
+This repository provides **precomputed model predictions and evaluation metrics** for the benchmark dataset to support artifact evaluation and reproducibility.
+
+#### Contents
+
+* **Prediction Files**
+  For each experimental setting, we provide model outputs in:
+
+  * `P1-prediction_results.csv`
+  * `P2-prediction_results.csv`
+  * `P3-prediction_results.csv`
+
+  Each file contains:
+
+  * Transaction identifiers (`hash`)
+  * Model scores for the following methods:
+
+    * AAE, RF, ET, XGB, PU
+
+* **Summary Metrics**
+  The file:
+
+  * `Table-1-TxSentinel-Predictions.csv`
+
+  reports aggregated evaluation results for all `(Experiment, Model)` pairs.
+
+#### Metrics
+
+All metrics are reported as **percentages (0–100 scale)**:
+
+* **Accuracy**
+* **Specificity**
+* **Sensitivity (Recall)**
+* **PR-AUC (Average Precision)**
+
+#### Experimental Settings
+
+The results are organized across three experimental configurations:
+
+* **P1: Frozen embeddings**
+* **P2: Fine-tuned embeddings**
+* **P3: Expert features**
+
+#### Reproducibility
+
+The summary file (`Table-1-TxSentinel-Predictions.csv`) can be regenerated using the provided script:
+
+```bash
+python run.py
+```
+
+This script:
+
+1. Loads ground-truth labels from `ground-truth-labels.csv`
+2. Merges them with prediction files
+3. Applies fixed thresholds (as specified in the paper)
+4. Computes all reported metrics
+5. Outputs the final CSV file
+
+No additional training or external dependencies are required beyond standard Python libraries.
+
+
 
 ### 3. State-of-the-Art Predictions
 
